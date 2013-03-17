@@ -15,6 +15,22 @@ body {background-color: #fbf9e6;}
   h2 { color: #777; }
 }
 
+$core_horizontal_margin: 40px;
+
+#core {
+  margin: {
+    left: $core_horizontal_margin;
+    right: $core_horizontal_margin;
+  }
+}
+
+#core .span6 {
+  padding-left: 10px;
+  border: {
+    left: 2px solid #999;
+  }
+}
+
 #footer {
   border-top: thick solid #9E719E;
   border-radius: 0;
