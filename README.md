@@ -1,4 +1,7 @@
-githax
-======
+# GitHax
 
-portal for cool git hacks
+*A portal for cool git hacks.*
+
+## Dev Resources
+
+- [Sinatra:slim](http://rubysource.com/just-do-it-learn-sinatra-i/)
