@@ -1,7 +1,8 @@
 require 'sinatra'
+require 'slim'
 
 class GitHax < Sinatra::Base
   get '/' do
-    File.read(File.join('public', 'index.html'))
+    slim :index
   end
 end
