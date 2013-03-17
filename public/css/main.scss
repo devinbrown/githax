@@ -1,1 +1,22 @@
-#main { margin: 20px; }
+body { font-family: 'Enriqueta', serif; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Unica One' }
+
+body {background-color: #fbf9e6;}
+
+#banner .hero-unit  {
+  margin: {
+    left: -20px;
+    right: -20px;
+  }
+  background-color: #D9E793;
+  border-bottom: thick solid #9E719E;
+  border-radius: 0;
+  h1 { color: #333; }
+  h2 { color: #777; }
+}
+
+#footer {
+  border-top: thick solid #9E719E;
+  border-radius: 0;
+  background: #D9E793;
+}
